@@ -1,0 +1,21 @@
+body {
+  bottom: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-body {
+  background-color: lightgray;
+  margin-top: 10%;
+}
+
+.btn-val {
+  width: 60px !important;
+}
+
+#input-box {
+  text-align: right;
+}/*# sourceMappingURL=style.css.map */
