@@ -3,13 +3,14 @@ body {
   margin: 0;
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .calculator-body {
   background-color: lightgray;
-  margin-top: 10%;
+  margin-top: 7%;
 }
 
 .btn-val {
@@ -18,4 +19,12 @@ body {
 
 #input-box {
   text-align: right;
+}
+
+#all-clear {
+  background-color: rgb(168, 1, 1);
+}
+
+#equality-sign {
+  background-color: rgb(6, 6, 167);
 }/*# sourceMappingURL=style.css.map */
